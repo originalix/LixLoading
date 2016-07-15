@@ -15,6 +15,11 @@
 		56FB7A051D3883AA0026B1F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56FB7A031D3883AA0026B1F2 /* LaunchScreen.storyboard */; };
 		56FB7A101D3883AA0026B1F2 /* LixLoadingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FB7A0F1D3883AA0026B1F2 /* LixLoadingTests.m */; };
 		56FB7A1B1D3883AA0026B1F2 /* LixLoadingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FB7A1A1D3883AA0026B1F2 /* LixLoadingUITests.m */; };
+		56FB7A381D3883B90026B1F2 /* LixAmazingLoadingMusicsAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FB7A2B1D3883B90026B1F2 /* LixAmazingLoadingMusicsAnimation.m */; };
+		56FB7A391D3883B90026B1F2 /* LixAmazingLoadingSkypeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FB7A2D1D3883B90026B1F2 /* LixAmazingLoadingSkypeAnimation.m */; };
+		56FB7A3A1D3883B90026B1F2 /* LixAmazingLoadingStarAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FB7A2F1D3883B90026B1F2 /* LixAmazingLoadingStarAnimation.m */; };
+		56FB7A3B1D3883B90026B1F2 /* LixLayerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FB7A321D3883B90026B1F2 /* LixLayerHelper.m */; };
+		56FB7A3C1D3883B90026B1F2 /* LixAmazingLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FB7A371D3883B90026B1F2 /* LixAmazingLoadingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,17 @@
 		56FB7A161D3883AA0026B1F2 /* LixLoadingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LixLoadingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56FB7A1A1D3883AA0026B1F2 /* LixLoadingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LixLoadingUITests.m; sourceTree = "<group>"; };
 		56FB7A1C1D3883AA0026B1F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56FB7A2A1D3883B90026B1F2 /* LixAmazingLoadingMusicsAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LixAmazingLoadingMusicsAnimation.h; sourceTree = "<group>"; };
+		56FB7A2B1D3883B90026B1F2 /* LixAmazingLoadingMusicsAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LixAmazingLoadingMusicsAnimation.m; sourceTree = "<group>"; };
+		56FB7A2C1D3883B90026B1F2 /* LixAmazingLoadingSkypeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LixAmazingLoadingSkypeAnimation.h; sourceTree = "<group>"; };
+		56FB7A2D1D3883B90026B1F2 /* LixAmazingLoadingSkypeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LixAmazingLoadingSkypeAnimation.m; sourceTree = "<group>"; };
+		56FB7A2E1D3883B90026B1F2 /* LixAmazingLoadingStarAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LixAmazingLoadingStarAnimation.h; sourceTree = "<group>"; };
+		56FB7A2F1D3883B90026B1F2 /* LixAmazingLoadingStarAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LixAmazingLoadingStarAnimation.m; sourceTree = "<group>"; };
+		56FB7A311D3883B90026B1F2 /* LixLayerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LixLayerHelper.h; sourceTree = "<group>"; };
+		56FB7A321D3883B90026B1F2 /* LixLayerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LixLayerHelper.m; sourceTree = "<group>"; };
+		56FB7A341D3883B90026B1F2 /* LixAmazingLoadingAnimationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LixAmazingLoadingAnimationProtocol.h; sourceTree = "<group>"; };
+		56FB7A361D3883B90026B1F2 /* LixAmazingLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LixAmazingLoadingView.h; sourceTree = "<group>"; };
+		56FB7A371D3883B90026B1F2 /* LixAmazingLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LixAmazingLoadingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +97,7 @@
 		56FB79E91D3883AA0026B1F2 = {
 			isa = PBXGroup;
 			children = (
+				56FB7A281D3883B90026B1F2 /* LixAmazingLoading */,
 				56FB79F41D3883AA0026B1F2 /* LixLoading */,
 				56FB7A0E1D3883AA0026B1F2 /* LixLoadingTests */,
 				56FB7A191D3883AA0026B1F2 /* LixLoadingUITests */,
@@ -138,6 +155,57 @@
 				56FB7A1C1D3883AA0026B1F2 /* Info.plist */,
 			);
 			path = LixLoadingUITests;
+			sourceTree = "<group>";
+		};
+		56FB7A281D3883B90026B1F2 /* LixAmazingLoading */ = {
+			isa = PBXGroup;
+			children = (
+				56FB7A291D3883B90026B1F2 /* Animations */,
+				56FB7A301D3883B90026B1F2 /* Helpers */,
+				56FB7A331D3883B90026B1F2 /* Protocol */,
+				56FB7A351D3883B90026B1F2 /* View */,
+			);
+			name = LixAmazingLoading;
+			path = LixLoading/LixAmazingLoading;
+			sourceTree = "<group>";
+		};
+		56FB7A291D3883B90026B1F2 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				56FB7A2A1D3883B90026B1F2 /* LixAmazingLoadingMusicsAnimation.h */,
+				56FB7A2B1D3883B90026B1F2 /* LixAmazingLoadingMusicsAnimation.m */,
+				56FB7A2C1D3883B90026B1F2 /* LixAmazingLoadingSkypeAnimation.h */,
+				56FB7A2D1D3883B90026B1F2 /* LixAmazingLoadingSkypeAnimation.m */,
+				56FB7A2E1D3883B90026B1F2 /* LixAmazingLoadingStarAnimation.h */,
+				56FB7A2F1D3883B90026B1F2 /* LixAmazingLoadingStarAnimation.m */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		56FB7A301D3883B90026B1F2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				56FB7A311D3883B90026B1F2 /* LixLayerHelper.h */,
+				56FB7A321D3883B90026B1F2 /* LixLayerHelper.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		56FB7A331D3883B90026B1F2 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				56FB7A341D3883B90026B1F2 /* LixAmazingLoadingAnimationProtocol.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		56FB7A351D3883B90026B1F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				56FB7A361D3883B90026B1F2 /* LixAmazingLoadingView.h */,
+				56FB7A371D3883B90026B1F2 /* LixAmazingLoadingView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,7 +343,12 @@
 			files = (
 				56FB79FD1D3883AA0026B1F2 /* ViewController.m in Sources */,
 				56FB79FA1D3883AA0026B1F2 /* AppDelegate.m in Sources */,
+				56FB7A391D3883B90026B1F2 /* LixAmazingLoadingSkypeAnimation.m in Sources */,
 				56FB79F71D3883AA0026B1F2 /* main.m in Sources */,
+				56FB7A3A1D3883B90026B1F2 /* LixAmazingLoadingStarAnimation.m in Sources */,
+				56FB7A3B1D3883B90026B1F2 /* LixLayerHelper.m in Sources */,
+				56FB7A381D3883B90026B1F2 /* LixAmazingLoadingMusicsAnimation.m in Sources */,
+				56FB7A3C1D3883B90026B1F2 /* LixAmazingLoadingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
